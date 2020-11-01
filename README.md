@@ -4,4 +4,4 @@ The following figure demonstrates Expectation Maximization (EM) for Gaussian Mix
 
 ![EM](out/EM.gif)
 
-Plotting the waiting time between eruptions over eruption time reveals a "cluster" structure. In this project I model this structure with a Gaussian Mixture Model. Equations and algorithms can be found in `EM_gaussian_mixture.ipynb`. 
+Plotting the waiting time between eruptions over eruption time reveals a "cluster" structure. In this project I model this structure with a Gaussian Mixture Model. To find appriximate cluster centers k-Means Clustering is used. Equations and algorithms can be found in `EM_gaussian_mixture.ipynb`. 
